@@ -1,0 +1,13 @@
+body{
+    display: flex;
+  justify-content: center; /* Center items along the main axis (horizontally) */
+  align-items: center; 
+  background-color: beige;
+}
+.container{
+    
+    position:relative;
+    max-width: 800px;
+    height: 300px;
+    border: 1px solid #ddd;
+}

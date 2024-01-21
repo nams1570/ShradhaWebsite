@@ -1,24 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import AboutMe from "./pages/AboutPage"
+import Projects from "./pages/ProjectPage"
 function App() {
+  const images = ['/carousel/At IG.jpg','/carousel/Bank Buildings.jpg','/carousel/Haight.jpg','/carousel/NYC.jpg','/carousel/SF Botanical Gardens.jpg','/carousel/UC Botanical Garden.jpg','/carousel/UC Botanical Gardens 2.jpg','/carousel/UCB.jpg'];
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React and say hi
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<AboutMe images={images}/>}></Route>
+        <Route path="/projects" element={<Projects/>}></Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

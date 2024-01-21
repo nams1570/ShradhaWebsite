@@ -1,0 +1,56 @@
+.spic{
+    float:left;
+    max-height:50%;
+    max-width: 60%;
+    height:auto;
+    width:auto;
+}
+body{
+    display: flex;
+  justify-content: center; /* Center items along the main axis (horizontally) */
+  align-items: center; 
+  background-color: beige;
+}
+.container{
+    
+    position:relative;
+    max-width: 800px;
+    height: 300px;
+    border: 1px solid #ddd;
+}
+.carousel-image{
+    height:100%;
+    width:100%;
+}
+.next-button{
+    position: absolute;
+    height:100%;
+    left:97%;
+    color:gray;
+    font-size: large;
+    float:right;
+    width:20px;
+    background-color: rgba(0, 0, 0, 0);
+    border:none;
+    cursor:pointer;
+    z-index:1;
+}
+.prev-button{
+    
+    position: absolute;
+    height:100%;
+    float:left;
+    color:gray;
+    font-size: large;
+    width:20px;
+    background-color: rgba(0, 0, 0, 0);
+    border:none;
+    cursor:pointer;
+    z-index:1;
+}
+.next-button:hover{
+    background-color: rgba(81, 81, 81, 0.21);
+}
+.prev-button:hover{
+    background-color: rgba(81, 81, 81, 0.21);
+}
