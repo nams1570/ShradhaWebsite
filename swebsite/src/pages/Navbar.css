@@ -1,0 +1,11 @@
+
+.navbar{
+    border: 1px solid #ddd;
+    display:flex;
+}
+.navbar div{
+    padding-right: 5%;
+}
+.navbar a{
+    text-decoration: none;
+}
