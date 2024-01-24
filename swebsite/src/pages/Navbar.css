@@ -2,10 +2,30 @@
 .navbar{
     border: 1px solid #ddd;
     display:flex;
+    margin-bottom: 10px;
+    width:100%;
+    background-color: white;
+    justify-content: center; /* Center items along the main axis (horizontally) */
+    align-items: center; 
+    left:0;
+    position:absolute;
+    z-index: 1;
 }
 .navbar div{
     padding-right: 5%;
+    position: relative;
+}
+.navbar div:hover{
+    background-color: aliceblue;
 }
 .navbar a{
     text-decoration: none;
+}
+.navtext{
+    text-align:justify;
+    font-family: 'Times New Roman', Times, serif;
+    color:red;
+}
+.navtext:visited{
+    color:red;
 }

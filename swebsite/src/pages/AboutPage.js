@@ -13,9 +13,9 @@ function ImageCarousel({images}){
         setIndex((index - 1 + images.length) % images.length)
     }
     return (
-        <div class="container">
+        <div class="carousel-container">
             <button class="prev-button" onClick={prevImage}>&lt;</button>
-            <img class = "carousel-image" src = {images[index]}></img>
+            <img class = "carousel-image" src = {images[index]} alt=""></img>
             <button class="next-button" onClick={nextImage}>&gt;</button>
         </div>
     );

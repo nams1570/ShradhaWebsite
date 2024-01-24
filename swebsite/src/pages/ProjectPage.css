@@ -4,10 +4,34 @@ body{
   align-items: center; 
   background-color: beige;
 }
-.container{
+.intro-container{
     
     position:relative;
     max-width: 800px;
     height: 300px;
     border: 1px solid #ddd;
+}
+.row{
+  display:flex;
+  padding:20px;
+  border:solid 1px green;
+}
+.projtext{
+  padding:10px;
+  width:66.66%;
+}
+.projimg{
+  width:33.33%;
+}
+.projcontainer .row:nth-child(odd){
+  flex-direction:row-reverse;
+}
+.projcontainer{
+  width:800px;
+}
+.projheading{
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: justify;
+  width:100%;
 }
