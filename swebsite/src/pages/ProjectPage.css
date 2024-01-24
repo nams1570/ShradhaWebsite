@@ -3,9 +3,10 @@ body{
   justify-content: center; /* Center items along the main axis (horizontally) */
   align-items: center; 
   background-color: beige;
+  
 }
 .intro-container{
-    
+    padding-top: 10%;
     position:relative;
     max-width: 800px;
     height: 300px;
