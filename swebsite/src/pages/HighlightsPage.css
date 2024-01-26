@@ -1,22 +1,27 @@
 .IntroContainer{
     padding-top: 10%;
     position:relative;
-    border:2px solid green;
     width: 500px;
     height: 300px;
-    display:table;
+    left:23%;
 }
-.IntroName{
-    padding: 10%;
-    width:100%;
-    height:5%;
-    border:1px solid orange;
-    display:table-cell;
+
+#leftContainer{
+    color:aliceblue;
+    float:left;
+    background-color: black;
 }
-.IntroText{
-    display:table-cell;
-    width:100%;
+.highlightsContainer{
+    width:500px;
+    height:500px;
+    margin:10px;
 }
+#rightContainer{
+    color:black;
+    float:right;
+    background-color: aliceblue;
+}
+
 body{
     display: flex;
   justify-content: center; /* Center items along the main axis (horizontally) */
