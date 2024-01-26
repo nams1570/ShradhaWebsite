@@ -13,6 +13,9 @@ export default function Navbar(){
             <div>
                 <Link className="navtext" to="/highlights">Highlighted Works</Link>
             </div>
+            <div>
+                <Link className="navtext" to="/contact">Contact Me!</Link>
+            </div>
         </div>
     );
 }

@@ -4,6 +4,7 @@ import AboutMe from "./pages/AboutPage"
 import Projects from "./pages/ProjectPage"
 import Navbar from "./pages/Navbar"
 import Highlights from "./pages/HighlightsPage"
+import ContactUs from "./pages/ContactUs"
 
 function App() {
   const images = ['/carousel/At IG.jpg','/carousel/Bank Buildings.jpg','/carousel/Haight.jpg','/carousel/NYC.jpg','/carousel/SF Botanical Gardens.jpg','/carousel/UC Botanical Garden.jpg','/carousel/UC Botanical Gardens 2.jpg','/carousel/UCB.jpg'];
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<AboutMe images={images}/>}></Route>
         <Route path="/projects" element={<Projects/>}></Route>
         <Route path="/highlights" element={<Highlights/>}></Route>
+        <Route path="/contact" element={<ContactUs/>}></Route>
       </Routes>
     </BrowserRouter>
     </div>
